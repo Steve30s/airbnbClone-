@@ -1,0 +1,81 @@
+/*CSS ENSSENTIALS*/
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #333;
+	line-height: 1.43;
+	color: #484848;
+}
+ p{
+ 	font-size: 16px;
+ 	margin: 0;
+ 	padding: 0;
+ }
+ a:link{
+ 	font-size: 16px;
+ 	text-decoration: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+ a:visited{
+ 	text-decoration: none;
+ 	padding: 0;
+ }
+h1,h2,h3,h4,h5,h6, ul, ol, li {
+	margin: 0;
+	padding: 0;
+}
+ul, ol {
+	list-style-type: none;
+}
+::selection {
+color: #fff;
+background-color: #333;
+}
+::-moz-selection{
+color: #fff;
+background-color: #333;
+}
+.clearfix::after{
+content: "";
+display: table;
+clear: both;
+}
+/*TOOP-NAV CSS*/
+.top-nav{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #ccc; 
+}
+.logo:link{
+	position: relative;
+	color: #484848;
+	padding: 3px;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	border-right: 1px solid #ccc;
+
+}
+.logo:visited{
+	color: #484848;
+}
+.logo:hover{
+	background:#ccc;
+	display: inline-block;
+}
+.logo img {
+	padding: 12px 19px;
+	width: 100px;
+	border: 1px solid #ccc;
+}
+
+
+
+
+
+
